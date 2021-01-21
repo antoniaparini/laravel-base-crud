@@ -26,7 +26,7 @@ class ClassroomController extends Controller
      */
     public function create()
     {
-        //
+        return view('classrooms.create');
     }
 
     /**
@@ -37,7 +37,7 @@ class ClassroomController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        return 'Funzione ST';
     }
 
     /**
@@ -48,7 +48,7 @@ class ClassroomController extends Controller
      */
     public function show($id)
     {
-        //
+        return 'Funzione SH';
     }
 
     /**

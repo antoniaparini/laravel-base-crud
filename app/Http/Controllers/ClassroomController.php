@@ -16,7 +16,7 @@ class ClassroomController extends Controller
     {
         $classrooms = Classroom::all();
         //dd($classrooms);
-        return view ('classrooms.index');
+        return view ('classrooms.index', compact ('classrooms'));
     }
 
     /**

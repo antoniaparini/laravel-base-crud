@@ -6,7 +6,7 @@
             OUR CLASSROOMS
         </h1>
 
-        <table class="table">
+        <table class="table table-striped mt-5">
             <thead>
                 <tr>
                     <th>ID</th>

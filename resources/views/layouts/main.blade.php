@@ -26,7 +26,7 @@
 
         <!--FOOTER-->
    
-            @include('partials.footer)
+            @include('partials.footer')
         
     </body>
 </html>
